@@ -15,7 +15,7 @@ def print_elements(array):
     skipped = 0
     while i <= len(array):
         print(array[i])
-        print(array[i][1], end="") 
+        #print(array[i][1], end="") 
         skipped += 1
         i += skipped + 1
 
